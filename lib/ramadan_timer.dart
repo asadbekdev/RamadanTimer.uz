@@ -118,9 +118,10 @@ class RamadaTimerPage extends StatelessWidget {
                 const SizedBox(height: 40.0),
                 TimerCountdown(
                   format: CountDownTimerFormat.daysHoursMinutesSeconds,
-                  endTime: DateTime.now().add(
-                    const Duration(days: 93),
-                  ),
+                  // endTime: DateTime.now().add(
+                  //   const Duration(days: 93),
+                  // ),
+                  endTime: DateTime(2022, 4, 3),
                   spacerWidth: 50,
                   timeTextStyle: const TextStyle(
                     fontSize: 100.0,
