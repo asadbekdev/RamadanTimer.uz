@@ -6,8 +6,8 @@ import 'package:flutter_timer_countdown/flutter_timer_countdown.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class RamadaTimerPage extends StatelessWidget {
-  RamadaTimerPage({Key? key}) : super(key: key);
+class RamadanTimerPage extends StatelessWidget {
+  RamadanTimerPage({Key? key}) : super(key: key);
   final DateTime dateTime = DateTime.now().add(Duration(days: 92));
   @override
   Widget build(BuildContext context) {
@@ -46,7 +46,7 @@ class RamadaTimerPage extends StatelessWidget {
                         ),
                         const SizedBox(width: 10.0),
                         const Text(
-                          "Ramazantimer.uz",
+                          "Ramadantimer.uz",
                           style: TextStyle(
                             fontSize: 20.0,
                             color: Colors.white,

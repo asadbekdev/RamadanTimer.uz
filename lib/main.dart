@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'RamazanTimer.uz',
+      title: 'Ramadantimer.uz',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: GoogleFonts.comfortaaTextTheme(),
       ),
-      home: RamadaTimerPage(),
+      home: RamadanTimerPage(),
     );
   }
 }

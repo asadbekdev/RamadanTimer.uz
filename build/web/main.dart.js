@@ -48594,9 +48594,9 @@ A.nh.prototype={}
 A.QT.prototype={}
 A.za.prototype={
 T(a,b){var s=null,r=A.a2y(B.a2,s,s).a1,q=A.a2y(s,B.m8,new A.cL(A.ee(r.a),A.ee(r.b),A.ee(r.c),A.ee(r.d),A.ee(r.e),A.ee(r.f),A.ee(r.r),A.ee(r.x),A.ee(r.y),A.ee(r.z),A.ee(r.Q),A.ee(r.ch),A.ee(r.cx)))
-return new A.qk(new A.Ad(new A.dc(Date.now(),!1).B(0,A.c2(92,0,0,0)),s),"RamazanTimer.uz",q,!1,s)}}
+return new A.qk(new A.Ad(new A.dc(Date.now(),!1).B(0,A.c2(92,0,0,0)),s),"Ramadantimer.uz",q,!1,s)}}
 A.Ad.prototype={
-T(a,b){var s=null,r=A.afC(3,3),q=A.bx(0,255,255,255),p=t.p,o=A.dk(A.a([new A.pM(A.agT(s,s,new A.lv("assets/masjid_logo.png",s,s)),40,30,B.cg,s),B.Df,B.GB],p),B.C,B.H,B.ba),n=A.ei("Ramazon 2021",A.a3q(s,s,B.i,s,s,s,s,"Redressed",s,45,s,s,A.aP([B.dT,new A.bV("b7da182df7a86a14b448d200c3efd866dca0885111c28fce6449cf8aef103e77",78804)],t.g1,t.p7),s,s,s,s,s,s,s,s),s,s),m=A.dk(B.yr,B.C,B.d2,B.ba),l=A.agJ(2022,4,3,0,0,0,0,!1)
+T(a,b){var s=null,r=A.afC(3,3),q=A.bx(0,255,255,255),p=t.p,o=A.dk(A.a([new A.pM(A.agT(s,s,new A.lv("assets/masjid_logo.png",s,s)),40,30,B.cg,s),B.Df,B.GC],p),B.C,B.H,B.ba),n=A.ei("Ramazon 2021",A.a3q(s,s,B.i,s,s,s,s,"Redressed",s,45,s,s,A.aP([B.dT,new A.bV("b7da182df7a86a14b448d200c3efd866dca0885111c28fce6449cf8aef103e77",78804)],t.g1,t.p7),s,s,s,s,s,s,s,s),s,s),m=A.dk(B.yr,B.C,B.d2,B.ba),l=A.agJ(2022,4,3,0,0,0,0,!1)
 if(!A.js(l))A.W(A.lg(l))
 return new A.ro(A.KR(B.W,A.aei(A.KR(s,A.p_(A.a([new A.lr(B.f1,s,s,new A.kr(B.wF,o,s),s),B.eG,n,B.Dh,m,B.GA,B.Di,new A.t8(B.we,new A.dc(l,!1),B.F2,B.G7,"Kun","Soat","Daqiqa","Soniya",50,s),B.eG,B.eG,A.dk(A.a([A.ei("Copyright 2022 | Powered by ",A.a5D(B.i,16),B.cc,s),A.a2_(A.a1B(s,A.ei("Asadbek",A.a5D(B.fx,18),B.cc,s),B.b0,!1,s,s,s,s,s,s,s,s,s,s,new A.Rl(),s,s,s,s,s),B.r0,s,s)],p),B.C,B.d2,B.ba),B.Dg],p),B.C,B.d2,B.ba),s,new A.fl(q,s,s,s,s,s,B.aU),s,s,s),r),s,B.rQ,s,s,s),s)}}
 A.Rl.prototype={
@@ -51026,10 +51026,10 @@ B.Bk=new A.x(3,-3)
 B.Cp=new A.kJ(B.l,B.Bk,10)
 B.h2=A.a(s([B.Cp]),A.R("n<kJ>"))
 B.rc=new A.o(!0,B.i,null,null,null,null,20,null,null,null,null,null,1.4,null,null,null,null,null,null,null,null,null,B.h2,null,null)
-B.GC=new A.j5("Assalomu alaykum, aziz ",null,B.rc,null,null,null)
+B.GB=new A.j5("Assalomu alaykum, aziz ",null,B.rc,null,null,null)
 B.DY=new A.o(!0,B.fx,null,null,null,null,20,B.aD,null,null,null,null,1.4,null,null,null,null,null,null,null,null,null,B.h2,null,null)
 B.Gz=new A.j5("Musulmonlar!",null,B.DY,null,null,null)
-B.yr=A.a(s([B.GC,B.Gz]),t.p)
+B.yr=A.a(s([B.GB,B.Gz]),t.p)
 B.ys=A.a(s(["click","scroll"]),t.s)
 B.yt=A.a(s(["HEAD","AREA","BASE","BASEFONT","BR","COL","COLGROUP","EMBED","FRAME","FRAMESET","HR","IMAGE","IMG","INPUT","ISINDEX","LINK","META","PARAM","SOURCE","STYLE","TITLE","WBR"]),t.s)
 B.yu=A.a(s([]),t.fB)
@@ -52387,7 +52387,7 @@ B.Gx=new A.cL(B.Ej,B.Ek,B.El,B.Em,B.F8,B.DR,B.DC,B.FX,B.EK,B.EL,B.En,B.DQ,B.Ga)
 B.Gy=new A.BY(1,"longestLine")
 B.GA=new A.j5("Muborak Ramazon oyi yaqinlashmoqda, keling ortga sanoqni boshlaymiz!",null,B.rc,B.cc,null,null)
 B.FS=new A.o(!0,B.i,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.GB=new A.j5("Ramazantimer.uz",null,B.FS,null,null,null)
+B.GC=new A.j5("Ramadantimer.uz",null,B.FS,null,null,null)
 B.JI=new A.Vo(0,"system")
 B.GD=new A.t3(null)
 B.GE=new A.t6(1,"repeated")
