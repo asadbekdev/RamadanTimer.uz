@@ -58,7 +58,7 @@ class RamadanTimerPage extends StatelessWidget {
                 ),
                 const Spacer(),
                 Text(
-                  "Ramazon 2021",
+                  "Ramazon 2022",
                   style: GoogleFonts.redressed(
                     fontSize: 45.0,
                     color: Colors.white,
