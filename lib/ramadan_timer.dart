@@ -1,6 +1,4 @@
 import 'dart:ui';
-
-import 'package:animate_countdown_text/animate_countdown_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_timer_countdown/flutter_timer_countdown.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -8,7 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 class RamadanTimerPage extends StatelessWidget {
   RamadanTimerPage({Key? key}) : super(key: key);
-  final DateTime dateTime = DateTime.now().add(Duration(days: 86));
+  final DateTime dateTime = DateTime.now().add(const Duration(days: 86));
 
   @override
   Widget build(BuildContext context) {
@@ -66,10 +64,10 @@ class RamadanTimerPage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 30.0),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "Assalomu alaykum, aziz ",
                       style: TextStyle(
@@ -122,7 +120,7 @@ class RamadanTimerPage extends StatelessWidget {
                   // endTime: DateTime.now().add(
                   //   const Duration(days: 93),
                   // ),
-                  endTime: DateTime(2022, 4, 3),
+                  endTime: DateTime(2024, 3, 9),
                   spacerWidth: 50,
                   timeTextStyle: const TextStyle(
                     fontSize: 100.0,
@@ -146,7 +144,7 @@ class RamadanTimerPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Copyright 2022 | Powered by ",
+                      "Copyright ${DateTime.now().year} | Powered by ",
                       style: GoogleFonts.poppins(
                         fontSize: 16.0,
                         color: Colors.white,
