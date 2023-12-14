@@ -8,7 +8,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 class RamadanTimerPage extends StatelessWidget {
   RamadanTimerPage({Key? key}) : super(key: key);
-  final DateTime dateTime = DateTime.now().add(Duration(days: 92));
+  final DateTime dateTime = DateTime.now().add(Duration(days: 86));
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,7 +59,7 @@ class RamadanTimerPage extends StatelessWidget {
                 ),
                 const Spacer(),
                 Text(
-                  "Ramazon 2022",
+                  "Ramazon 2024",
                   style: GoogleFonts.redressed(
                     fontSize: 45.0,
                     color: Colors.white,
@@ -156,7 +157,7 @@ class RamadanTimerPage extends StatelessWidget {
                       cursor: SystemMouseCursors.click,
                       child: GestureDetector(
                         onTap: () async {
-                          await launch("https://t.me/asadbekdev",
+                          await launch("https://t.me/asadbek",
                               enableJavaScript: true);
                         },
                         child: Text(
